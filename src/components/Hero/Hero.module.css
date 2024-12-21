@@ -1,0 +1,7 @@
+.hero_section {
+    position: relative;
+}
+.hero_img {
+    width: 100%;
+    mask-image: linear-gradient(to top, transparent, black 10%);
+}
