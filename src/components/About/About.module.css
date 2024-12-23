@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    padding: 73px;
+    margin-top: 129px;
+    border-radius: 15px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.novios_items {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+}
+
+.lastname {
+    color: var(--color-text);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.letra_y {
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fecha {
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container_frase {
+    margin-top: 40px;
+}
+
+.frase_invitacion {
+    color: var(--color-text);
+    font-size: 10px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Mobile Design */
+@media screen and (max-width: 850px) {
+    .container {
+        margin-top: 40px;
+        /*background-color: transparent;*/
+    }
+}
