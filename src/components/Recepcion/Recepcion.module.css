@@ -1,8 +1,6 @@
 @import "../../vars.css";
 
 .container {
-    position: relative;
-    padding: 73px;
     margin-top: 129px;
     margin-left: 10%;
     margin-right: 10%;
@@ -47,6 +45,7 @@
 .iglesia_img {
     margin-top: 40px;
     width: 270px;
+    height: 151px;
     border-radius: 15px;
 }
 
