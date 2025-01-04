@@ -4,6 +4,10 @@ import iglesia_img from "../../assets/iglesia.png";
 import styles from "./Religiosa.module.css";
 
 export const Religiosa = () => {
+  const handleGpsClick = () => {
+    window.location.href = "https://maps.app.goo.gl/c6SmjCRNucjxViH28";
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -16,7 +20,9 @@ export const Religiosa = () => {
       <div className={styles.direccion}>
         <p className={styles.cursivo}>206 Center St, Syracuse, NY 13209</p>
         <div className={styles.button_container}>
-          <button className={styles.gps_button}>Como Llegar</button>
+          <button onClick={handleGpsClick} className={styles.gps_button}>
+            Como Llegar
+          </button>
         </div>
       </div>
     </section>

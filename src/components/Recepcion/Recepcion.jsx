@@ -4,6 +4,10 @@ import iglesia_img from "../../assets/recepcion.png";
 import styles from "./Recepcion.module.css";
 
 export const Recepcion = () => {
+  const handleGpsClick = () => {
+    window.location.href = "https://maps.app.goo.gl/WsAbqQejLK7PBjPh9";
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -16,7 +20,9 @@ export const Recepcion = () => {
       <div className={styles.direccion}>
         <p className={styles.cursivo}>213 Lamont Ave, Syracuse, NY 13209</p>
         <div className={styles.button_container}>
-          <button className={styles.gps_button}>Como Llegar</button>
+          <button onClick={handleGpsClick} className={styles.gps_button}>
+            Como Llegar
+          </button>
         </div>
       </div>
     </section>

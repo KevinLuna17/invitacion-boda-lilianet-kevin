@@ -22,6 +22,8 @@
 .novios_items {
     display: flex;
     flex-direction: column;
+    padding-right: 15px;
+    border-right: 2px solid #b1a9a9;
 }
 
 .name {
